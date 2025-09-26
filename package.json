@@ -18,10 +18,12 @@
     "express": "^5.1.0",
     "express-validator": "^7.2.1",
     "jsonwebtoken": "^9.0.2",
+    "mathjs": "^14.8.1",
     "mongoose": "^8.18.1",
     "mongoose-hidden": "^1.9.1",
     "nodemailer": "^7.0.6",
-    "winston": "^3.17.0"
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

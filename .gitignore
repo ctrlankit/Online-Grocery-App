@@ -4,5 +4,5 @@
 .env.production
 
 # Logs
-src/logs/*
-!src/logs/.gitkeep
+src/storage/logs/*
+!src/storage/logs/.gitkeep
