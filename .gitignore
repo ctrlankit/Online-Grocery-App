@@ -1,0 +1,8 @@
+# Env files
+.env
+.env.backup
+.env.production
+
+# Logs
+src/logs/*
+!src/logs/.gitkeep
