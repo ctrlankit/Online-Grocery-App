@@ -15,6 +15,17 @@ const customerSchema = new mongoose.Schema(
   }
 );
 
+//Hidden fields
+customerSchema.methods.toJSON = function () {
+  const obj = this.toObject();
+  delete obj.password;
+  delete obj.updatedAt;
+  delete obj.deletedAt;
+  delete obj.__v;
+  delete obj.otp;
+  return obj;
+};
+
 customerSchema.pre("save", async function (next) {
   if (this.isModified("password")) {
     this.password = await bcrypt.hash(this.password, 10);

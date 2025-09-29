@@ -3,13 +3,13 @@ class Controller {
     let response = {
       success: true,
       message: "Success",
-      data: data,
+      data: data ?? [],
     };
 
     if (meta) {
       response.meta = meta;
     }
-
+   
     return res.status(200).json(response);
   }
 
