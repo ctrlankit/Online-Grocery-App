@@ -11,7 +11,7 @@ const customerSchema = new mongoose.Schema(
     password: { type: String },
   },
   {
-    timestamps: true, // ✅ Correct place for timestamps
+    timestamps: true,
   }
 );
 
