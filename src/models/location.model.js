@@ -12,6 +12,7 @@ const locationSchema = new mongoose.Schema(
     area: { type: String, required: true },
     longitude: { type: String, required: false },
     latitude: { type: String, required: false },
+    deletedAt: { type: Date, default: null },
   },
   { timestamps: true }
 );
