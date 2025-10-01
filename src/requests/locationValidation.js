@@ -1,5 +1,4 @@
 import { body, param } from "express-validator";
-import Customer from "../models/customer.model.js";
 import Location from "../models/location.model.js";
 
 const LocationValidation = {

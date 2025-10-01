@@ -6,3 +6,16 @@
 # Logs
 src/storage/logs/*
 !src/storage/logs/.gitkeep
+
+# Storage
+src/storage/category/image/*
+!src/storage/category/image/.gitkeep
+
+src/storage/customer/profile/*
+!src/storage/customer/profile/.gitkeep
+
+src/storage/product/image/*
+!src/storage/product/image/.gitkeep
+
+src/storage/product/thumbnail/*
+!src/storage/product/thumbnail/.gitkeep
