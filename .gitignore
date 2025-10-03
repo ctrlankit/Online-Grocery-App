@@ -3,6 +3,9 @@
 .env.backup
 .env.production
 
+##node_modules
+node_modules
+
 # Logs
 src/storage/logs/*
 !src/storage/logs/.gitkeep
@@ -18,4 +21,4 @@ src/storage/product/image/*
 !src/storage/product/image/.gitkeep
 
 src/storage/product/thumbnail/*
-!src/storage/product/thumbnail/.gitkeep
+!src/storage/product/thumbnail/.gitkeepnode_modules/
