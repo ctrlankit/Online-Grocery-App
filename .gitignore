@@ -22,3 +22,4 @@ src/storage/product/image/*
 
 src/storage/product/thumbnail/*
 !src/storage/product/thumbnail/.gitkeepnode_modules/
+node_modules/
